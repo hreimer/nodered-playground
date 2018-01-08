@@ -1,0 +1,46 @@
+{
+  "name": "nodered-playground",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hreimer/nodered-playground.git"
+  },
+  "description": "a starting point for various projects in Node-RED",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.1.4",
+    "await": "^0.2.6",
+    "del": "^2.2.2",
+    "fs-extra": "^2.0.0",
+    "node-red": "0.17.5",
+    "node-red-contrib-fs-ops": "^1.2.2",
+    "npm-run-all": "^4.0.2",
+    "path-reader": "^1.0.4",
+    "watch": "^1.0.2",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6",
+    "csv-file-rotate": "git+https://github.com/hreimer/csv-file-rotate.git#HEAD"
+  },
+  "config": {
+    "nodered_port": "1880",
+    "nodered_flow": "flows.json"
+  },
+  "scripts": {
+    "debug": "npm run nodered-debug",
+    "start": "npm run nodered",
+    "nodered": "node node_modules/node-red/red.js -v -u . -p $npm_package_config_nodered_port $npm_package_config_nodered_flow",
+    "nodered-debug": "node --debug-brk node_modules/node-red/red.js -v -u . -p $npm_package_config_nodered_port $npm_package_config_nodered_flow",
+    "env": "env"
+  },
+  "author" : "Heinrich Reimer",
+  "keywords": [
+    "node-red"
+  ]
+}
