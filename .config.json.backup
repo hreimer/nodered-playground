@@ -505,16 +505,5 @@
    }
   }
  },
- "_credentialSecret": "741555820e57cb5f753e942e1979ca902789d2ed8aa8353b7eaa9247d5cd82f6",
- "users": {
-  "_": {
-   "editor": {
-    "view": {
-     "view-grid-size": 20,
-     "view-node-status": true,
-     "view-show-tips": true
-    }
-   }
-  }
- }
+ "_credentialSecret": "741555820e57cb5f753e942e1979ca902789d2ed8aa8353b7eaa9247d5cd82f6"
 }
