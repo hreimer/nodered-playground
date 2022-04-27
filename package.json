@@ -15,7 +15,7 @@
     }
   ],
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "await": "^0.2.6",
     "csv-file-rotate": "git+https://github.com/hreimer/csv-file-rotate.git",
     "del": "^2.2.2",
