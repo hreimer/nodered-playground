@@ -18,7 +18,7 @@
     "async": "^2.6.4",
     "await": "^0.2.6",
     "csv-file-rotate": "git+https://github.com/hreimer/csv-file-rotate.git",
-    "del": "^2.2.2",
+    "del": "^7.0.0",
     "fs-extra": "^10.1.0",
     "node-red": "^3.0.2",
     "node-red-contrib-fs-ops": "^1.6.0",
