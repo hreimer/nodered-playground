@@ -24,7 +24,7 @@
     "node-red-contrib-fs-ops": "^1.6.0",
     "node-red-contrib-http-multipart": "^0.3.2",
     "npm-run-all": "^4.1.5",
-    "path-reader": "^1.1.0",
+    "path-reader": "^2.0.0",
     "watch": "^1.0.2",
     "winston": "^2.4.6",
     "winston-daily-rotate-file": "^1.4.6"
